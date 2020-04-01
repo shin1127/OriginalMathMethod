@@ -31,13 +31,14 @@ Java 10においては、配列から最小値・最大値を1回の処理で取
  
  ```java
      public double average(ArrayList<Integer> list) {
-    	int sumNumber = 0;
-    	double avgNumber = 0;
-    	for(int i : list) {
-    		sumNumber += i;
-    	}
-    	avgNumber = sumNumber / list.size();
-    	return avgNumber;
+    	    int sumNumber = 0;
+    	    double avgNumber = 0;
+    	    for(int i : list) {
+    		       sumNumber += i;
+    	    }
+    	    avgNumber = sumNumber / list.size();
+    	    return avgNumber;
+     }
  ```
  </p>
  <p>
@@ -48,9 +49,9 @@ Java 10においては、配列から最小値・最大値を1回の処理で取
     	    double avgNumber = 0;
     	    for (double d : list) {
     		       sumNumber += d;
-    	}
-    	avgNumber = sumNumber / list.size();
-    	return avgNumber;
+    	    }
+    	    avgNumber = sumNumber / list.size();
+    	    return avgNumber;
     }
  ```
  </p>
