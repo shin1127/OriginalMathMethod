@@ -67,8 +67,8 @@ public class Logic{
     	return sumNumber;
     }
 
-    
-    public double average(ArrayList<Integer> list) {
+    // int型の配列の平均値を求める
+    public double averageInt(ArrayList<Integer> list) {
     	int sumNumber = 0;
     	double avgNumber = 0;
     	for(int i : list) {
@@ -78,8 +78,8 @@ public class Logic{
     	return avgNumber;
     }
 
-    // int型の
-    public double average(ArrayList<Double> list) {
+    // double型の平均値を求める
+    public double averageDouble(ArrayList<Double> list) {
     	double sumNumber = 0;
     	double avgNumber = 0;
     	for (double d : list) {
