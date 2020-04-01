@@ -1,7 +1,7 @@
 # OriginalMathMethod
 
 # Introduction
-ArrayList<>に格納された数について、それらの最小値・最大値・和・平均値などを算出するメソッドを作成した。<br>
+Javaで実装されている配列のひとつ、ArrayListに格納された数について、それらの最小値・最大値・和・平均値などを算出するメソッドを作成した。<br>
 （一部未完成）
 
 # Background
